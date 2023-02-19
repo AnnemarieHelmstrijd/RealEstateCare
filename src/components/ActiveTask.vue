@@ -1,5 +1,7 @@
 <template>
-    <router-link to="/">Home</router-link>
+    <v-btn color="" to="/">
+        &lt; Back To Menu
+    </v-btn>
     <MutableReportComponent></MutableReportComponent>
 </template>
 
