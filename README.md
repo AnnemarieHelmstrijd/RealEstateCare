@@ -5,9 +5,9 @@
 2. Installeer alle packages die nodig zijn: `npm install`
 3. Start server op localhost: `npm run dev`
 
-###
+### Live applicatie
 Live applicatie: https://63f24c0dd464750008384435--luxury-meringue-255096.netlify.app/
-
+git add
 ### Inloggen
 Om de omgeving te beveiligen is er een login nodig. Er zijn twee fictieve accounts toegevoegd aan de database. Die kun je gebruiken om in te loggen.
 
