@@ -7,9 +7,9 @@ import axios from "axios";
 import { DataModel, ModificationsReport, DamageReport, MaintenanceReport, InstallationReport } from "./datamodel";
 
 const database_url =
-  "https://my-json-server.typicode.com/AnnemarieHelmstrijd/real-estate-care/db";
+  "https://my-json-server.typicode.com/AnnemarieHelmstrijd/RealEstateCare/db";
 const users_url =
-  "https://my-json-server.typicode.com/AnnemarieHelmstrijd/real-estate-care/users";
+  "https://my-json-server.typicode.com/AnnemarieHelmstrijd/RealEstateCare/users";
 
 export default createStore({
   state: {

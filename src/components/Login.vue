@@ -38,7 +38,7 @@ export default {
     methods: {
         async login() {
             axios
-                .get("https://my-json-server.typicode.com/AnnemarieHelmstrijd/real-estate-care/users")
+                .get("https://my-json-server.typicode.com/AnnemarieHelmstrijd/RealEstateCare/users")
                 .then((result) => {
                     let user = result.data.filter(user => user.username === this.email && user.password === this.password)
                     delete user.password;
