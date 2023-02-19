@@ -45,3 +45,8 @@ Er is gewerkt volgens de officiele styleguides van VueJS. Deze style regels zijn
 - Component data zijn functions
 - Props zijn specifiek gedefinieerd (Waar nodig).
 - etc
+
+### Development omgeving
+- Visual Studio Code
+
+https://github.com/AnnemarieHelmstrijd/RealEstateCare/blob/master/screenshot_dev.png
