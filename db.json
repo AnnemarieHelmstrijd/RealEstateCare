@@ -1,0 +1,102 @@
+{
+    "completedReports": [
+        {
+            "location": "Hema",
+            "date": "1999-08-09",
+            "inspector": 0,
+            "damage": [{
+                "location": "Ceiling",
+                "newDamage": true,
+                "type": "Slijtage",
+                "actionRequired": false,
+                "description": "Tear"
+            }],
+            "maintenance": [{
+                "location": "Back wall",
+                "type": "Schilderwerk",
+                "actionRequired": true,
+                "costs": "500 - 1000"
+            }]
+        },
+        {
+            "location": "ONC",
+            "date": "2022-03-09",
+            "inspector": 0,
+            "installation": [{
+                "location": "Attic",
+                "type": "Verwarming",
+                "malfunctions": "Not working",
+                "test": "testprocedures.pdf",
+                "approved": true,
+                "notes": ""
+            }]
+        },
+        {
+            "location": "Fit for free",
+            "date": "2019-05-05",
+            "inspector": 1,
+            "damage": [{
+                "location": "Roof",
+                "newDamage": true,
+                "type": "Moedwillig",
+                "date": "2006-08-09",
+                "actionRequired": true,
+                "description": "Hole"
+            }]
+        },
+        
+        {
+            "location": "Jumbo",
+            "date": "2007-01-02",
+            "inspector": 1,
+            "installation": [{
+                "location": "Alarm floor 1",
+                "type": "Beveiliging",
+                "malfunctions": "Error in display",
+                "test": "testprocedures.pdf",
+                "approved": false,
+                "notes": "Error persists"
+            }],
+            "modifications": [{
+                "currentModifications": "modifications.pdf",
+                "type": "Houtrot",
+                "location": "Left wall basement construction",
+                "executer": "Onbekend",
+                "description": "Broken",
+                "action": "Laten aanpassen",
+                "notes": "Leans towards the left"
+            }]
+        }
+    ],
+    "scheduledReports": [
+        {
+            "location": "Albert Hein",
+            "date": "2023-02-02"
+        },
+        {
+            "location": "Ziggo Dome",
+            "date": "2023-03-03"
+        }
+    ],
+
+    "users": [
+        {
+            "id": 0,
+            "darkMode": false,
+            "username": "bob@realestatecare.com",
+            "password": "admin1234",
+            "firstName": "Bob",
+            "lastName": "de Bouwer",
+            "avatar": "https://avatars0.githubusercontent.com/u/9064066?v=4&s=460"
+        },
+        {
+            "id": 1,
+            "darkMode": false,
+            "username": "alice@realestatecare.com",
+            "password": "admin1234",
+            "firstName": "Alice",
+            "lastName": "in Wonderland",
+            "avatar": "https://avatars0.githubusercontent.com/u/9064050"
+        }
+    ]
+} 
